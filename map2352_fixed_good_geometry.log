@@ -2346,3 +2346,397 @@ Level flags = 0
 Total triangle count: 12329
 Writing c:\source\map2352_fixed_good_geometry.bsp
 7 minutes, 11 seconds elapsed
+
+==================================================================
+Date: 2026-07-04 13:28:37
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vbspplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry.vmf
+==================================================================
+4 threads
+---------------
+gamedir: C:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+Loading C:\GitHub\gmod-maps\map2352_fixed_good_geometry.vmf
+Locating GameData file 'garrysmod.fgd'...
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\garrysmod.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\base.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\halflife2.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\base.fgd
+fixing up env_cubemap materials on brush sides...
+FloodEntities...
+FloodEntities...
+Processing areas...done (0)
+Building Faces...Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\GitHub\gmod-maps\map2352_fixed_good_geometry.prt...
+Building visibility clusters...
+done (0)
+Generating blank default cubemaps...
+Generating blank default cubemaps...
+Emitted 15 brushes and 90 brushsides
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Building Physics collision data...
+done (3) (6279 bytes)
+Emitting static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 232 texinfos to 45
+Reduced 14 texdatas to 9 (563 bytes to 299)
+Writing C:\GitHub\gmod-maps\map2352_fixed_good_geometry.bsp
+9 seconds elapsed
+
+==================================================================
+Date: 2026-07-04 13:28:46
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vvisplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry
+==================================================================
+4 threads
+CPU supports AVX2
+reading c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+reading c:\github\gmod-maps\map2352_fixed_good_geometry.prt
+1484 portalclusters
+3273 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 307 visible clusters (0.01%)
+Total clusters visible: 2177451
+Average clusters visible: 1467
+Building PAS...
+Average clusters audible: 1484
+visdatasize:563857  compressed from 569856
+writing c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+Wrote ZIP buffer, estimated size 61310, actual size 60426
+6 minutes, 33 seconds elapsed
+
+==================================================================
+Date: 2026-07-04 13:35:19
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vradplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry
+==================================================================
+---------------
+gamedir: C:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+4 threads
+Compiling in LDR mode
+Reading texlights from 'lights.rad'...
+51 texlights parsed
+Loading c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+335 props added to raytrace
+6073 faces
+0 fake patch planes
+27340680 square feet [3937057792.00 square inches]
+4128 Displacements
+8279992 Square Feet [1192318848.00 Square Inches]
+0...1...2...3...4...5...6...7...8...9...106073 patches before subdivision
+435743 patches after subdivision
+CreateDirectLights...
+0...1...2...3...4...5...6...7...8...9...102 lights, 0 styled (0.01 seconds)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 21357590, max 2283
+transfer lists: 162.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41630, 35063, 18350)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3327, 2763, 1392)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(14, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(18, 12, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.3269 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Setting up leaf ambient computation...
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Fullness 
+------------       ---------------  -------- 
+entities                62/65536    ( 0.1%) 
+models                   1/4096     ( 0.0%) 
+brushes                 15/65536    ( 0.0%) 
+brushsides              90/655350   ( 0.0%) 
+planes                 674/65536    ( 1.0%) 
+vertexes              7464/65536    (11.4%) 
+nodes                 4550/65536    ( 6.9%) 
+texinfos                45/32768    ( 0.1%) 
+texdata                  9/8192     ( 0.1%) 
+dispinfos             4128/16384    (25.2%) 
+faces                 6073/65536    ( 9.3%) 
+hdr faces                0/65536    ( 0.0%) 
+origfaces             4145/65536    ( 6.3%) 
+leaves                4552/65536    ( 6.9%) 
+leaffaces             2059/65536    ( 3.1%) 
+leafbrushes           3655/65536    ( 5.6%) 
+areas                    2/1024     ( 0.2%) 
+surfedges            24476/512000   ( 4.8%) 
+edges                12629/256000   ( 4.9%) 
+leafwaterdata            1/32768    ( 0.0%) 
+primitives               3/32768    ( 0.0%) 
+primverts                0/65536    ( 0.0%) 
+primindices             36/65536    ( 0.1%) 
+cubemapsamples           0/1024     ( 0.0%) 
+overlays                 0/8192     ( 0.0%) 
+vertnormalindices    24475/256000   ( 9.6%) 
+visdata             563857/16777216 ( 3.4%) 
+entdata              34731/393216   ( 8.8%) 
+LDR ambient table     4552/65536    ( 6.9%) 
+HDR ambient table     4552/65536    ( 6.9%) 
+LDR worldlights            2       
+HDR worldlights            0       
+LDR lightdata              18082420
+HDR lightdata              0       
+LDR leaf ambient           10922   
+HDR leaf ambient           4552    
+occluders                  0       
+occluder polygons          0       
+occluder vert ind          0       
+detail props               12      
+static props               157266  
+pakfile                    60426   
+physics                    6279    
+physics terrain            1236194 
+
+Level flags = 0
+
+Total triangle count: 12329
+Writing c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+6 minutes, 25 seconds elapsed
+
+==================================================================
+Date: 2026-07-04 15:30:02
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vbspplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry.vmf
+==================================================================
+4 threads
+---------------
+gamedir: C:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+Loading C:\GitHub\gmod-maps\map2352_fixed_good_geometry.vmf
+Locating GameData file 'garrysmod.fgd'...
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\garrysmod.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\base.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\halflife2.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\base.fgd
+fixing up env_cubemap materials on brush sides...
+FloodEntities...
+FloodEntities...
+Processing areas...done (0)
+Building Faces...Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+Material maps/map2352_fixed_good_geometry/nature/blendgrassgravel001b_wvt_patch doesn't have a $bottommaterial
+done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\GitHub\gmod-maps\map2352_fixed_good_geometry.prt...
+Building visibility clusters...
+done (0)
+Generating blank default cubemaps...
+Generating blank default cubemaps...
+Emitted 15 brushes and 90 brushsides
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Building Physics collision data...
+done (4) (6279 bytes)
+Emitting static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 232 texinfos to 45
+Reduced 14 texdatas to 9 (563 bytes to 299)
+Writing C:\GitHub\gmod-maps\map2352_fixed_good_geometry.bsp
+12 seconds elapsed
+
+==================================================================
+Date: 2026-07-04 15:32:32
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vbspplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry.vmf
+==================================================================
+4 threads
+---------------
+gamedir: C:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+Loading C:\GitHub\gmod-maps\map2352_fixed_good_geometry.vmf
+Locating GameData file 'garrysmod.fgd'...
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\garrysmod.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\base.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\halflife2.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\base.fgd
+fixing up env_cubemap materials on brush sides...
+FloodEntities...
+FloodEntities...
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\GitHub\gmod-maps\map2352_fixed_good_geometry.prt...
+Building visibility clusters...
+done (0)
+Generating blank default cubemaps...
+Generating blank default cubemaps...
+Emitted 15 brushes and 90 brushsides
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Building Physics collision data...
+done (4) (6279 bytes)
+Emitting static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 223 texinfos to 44
+Reduced 14 texdatas to 9 (563 bytes to 299)
+Writing C:\GitHub\gmod-maps\map2352_fixed_good_geometry.bsp
+10 seconds elapsed
+
+==================================================================
+Date: 2026-07-04 15:32:43
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vvisplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry
+==================================================================
+4 threads
+CPU supports AVX2
+reading c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+reading c:\github\gmod-maps\map2352_fixed_good_geometry.prt
+1484 portalclusters
+3273 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 307 visible clusters (0.01%)
+Total clusters visible: 2177451
+Average clusters visible: 1467
+Building PAS...
+Average clusters audible: 1484
+visdatasize:563857  compressed from 569856
+writing c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+Wrote ZIP buffer, estimated size 61310, actual size 60426
+7 minutes, 21 seconds elapsed
+
+==================================================================
+Date: 2026-07-04 15:40:04
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vradplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry
+==================================================================
+---------------
+gamedir: C:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+4 threads
+Compiling in LDR mode
+Reading texlights from 'lights.rad'...
+51 texlights parsed
+Loading c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+317 props added to raytrace
+6004 faces
+0 fake patch planes
+27315008 square feet [3933361152.00 square inches]
+4128 Displacements
+8280142 Square Feet [1192340480.00 Square Inches]
+0...1...2...3...4...5...6...7...8...9...106004 patches before subdivision
+433566 patches after subdivision
+CreateDirectLights...
+0...1...2...3...4...5...6...7...8...9...102 lights, 0 styled (0.02 seconds)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 21404855, max 2284
+transfer lists: 163.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41699, 35126, 18386)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3327, 2763, 1393)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(14, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(18, 12, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.3713 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Setting up leaf ambient computation...
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Fullness 
+------------       ---------------  -------- 
+entities                62/65536    ( 0.1%) 
+models                   1/4096     ( 0.0%) 
+brushes                 15/65536    ( 0.0%) 
+brushsides              90/655350   ( 0.0%) 
+planes                 674/65536    ( 1.0%) 
+vertexes              7372/65536    (11.2%) 
+nodes                 4550/65536    ( 6.9%) 
+texinfos                44/32768    ( 0.1%) 
+texdata                  9/8192     ( 0.1%) 
+dispinfos             4128/16384    (25.2%) 
+faces                 6004/65536    ( 9.2%) 
+hdr faces                0/65536    ( 0.0%) 
+origfaces             4142/65536    ( 6.3%) 
+leaves                4552/65536    ( 6.9%) 
+leaffaces             1990/65536    ( 3.0%) 
+leafbrushes           3655/65536    ( 5.6%) 
+areas                    2/1024     ( 0.2%) 
+surfedges            24080/512000   ( 4.7%) 
+edges                12396/256000   ( 4.8%) 
+leafwaterdata            1/32768    ( 0.0%) 
+primitives               3/32768    ( 0.0%) 
+primverts                0/65536    ( 0.0%) 
+primindices             36/65536    ( 0.1%) 
+cubemapsamples           0/1024     ( 0.0%) 
+overlays                 0/8192     ( 0.0%) 
+vertnormalindices    24079/256000   ( 9.4%) 
+visdata             563857/16777216 ( 3.4%) 
+entdata              34731/393216   ( 8.8%) 
+LDR ambient table     4552/65536    ( 6.9%) 
+HDR ambient table     4552/65536    ( 6.9%) 
+LDR worldlights            2       
+HDR worldlights            0       
+LDR lightdata              18008196
+HDR lightdata              0       
+LDR leaf ambient           10533   
+HDR leaf ambient           4552    
+occluders                  0       
+occluder polygons          0       
+occluder vert ind          0       
+detail props               12      
+static props               155400  
+pakfile                    60426   
+physics                    6279    
+physics terrain            1236236 
+
+Level flags = 0
+
+Total triangle count: 12071
+Writing c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+6 minutes, 34 seconds elapsed
