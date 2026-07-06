@@ -3580,3 +3580,154 @@ Level flags = 0
 Total triangle count: 12103
 Writing c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
 5 minutes, 18 seconds elapsed
+
+==================================================================
+Date: 2026-07-06 00:29:16
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vbspplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry.vmf
+==================================================================
+4 threads
+---------------
+gamedir: C:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+Loading C:\GitHub\gmod-maps\map2352_fixed_good_geometry.vmf
+Locating GameData file 'garrysmod.fgd'...
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\garrysmod.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\base.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\halflife2.fgd
+Parsing GameData file c:\steam\steamapps\common\garrysmod\bin\base.fgd
+fixing up env_cubemap materials on brush sides...
+FloodEntities...
+FloodEntities...
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\GitHub\gmod-maps\map2352_fixed_good_geometry.prt...
+Building visibility clusters...
+done (0)
+Generating blank default cubemaps...
+Generating blank default cubemaps...
+Emitted 15 brushes and 90 brushsides
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Building Physics collision data...
+done (3) (6279 bytes)
+Emitting static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 235 texinfos to 46
+Reduced 14 texdatas to 9 (563 bytes to 299)
+Writing C:\GitHub\gmod-maps\map2352_fixed_good_geometry.bsp
+9 seconds elapsed
+
+==================================================================
+Date: 2026-07-06 00:29:26
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vvisplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry
+==================================================================
+4 threads
+CPU supports AVX2
+reading c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+reading c:\github\gmod-maps\map2352_fixed_good_geometry.prt
+1484 portalclusters
+3273 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 307 visible clusters (0.01%)
+Total clusters visible: 2177451
+Average clusters visible: 1467
+Building PAS...
+Average clusters audible: 1484
+visdatasize:563857  compressed from 569856
+writing c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+Wrote ZIP buffer, estimated size 61310, actual size 60426
+5 minutes, 5 seconds elapsed
+
+==================================================================
+Date: 2026-07-06 00:34:32
+C:\Steam\steamapps\common\GarrysMod\bin\win64\vradplusplus.exe -game C:\Steam\steamapps\common\GarrysMod\garrysmod C:\GitHub\gmod-maps\map2352_fixed_good_geometry
+==================================================================
+---------------
+gamedir: C:\Steam\steamapps\common\GarrysMod\garrysmod\
+---------------
+4 threads
+Compiling in LDR mode
+Reading texlights from 'lights.rad'...
+51 texlights parsed
+Loading c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+323 props added to raytrace
+6020 faces
+0 fake patch planes
+27315008 square feet [3933361152.00 square inches]
+4144 Displacements
+8280575 Square Feet [1192402816.00 Square Inches]
+0...1...2...3...4...5...6...7...8...9...106020 patches before subdivision
+432972 patches after subdivision
+CreateDirectLights...
+0...1...2...3...4...5...6...7...8...9...102 lights, 0 styled (0.01 seconds)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 21500575, max 2289
+transfer lists: 164.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41089, 34540, 17993)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3320, 2757, 1390)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(14, 10, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(18, 12, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.2823 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Setting up leaf ambient computation...
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Fullness 
+------------       ---------------  -------- 
+entities                60/65536    ( 0.1%) 
+models                   1/4096     ( 0.0%) 
+brushes                 15/65536    ( 0.0%) 
+brushsides              90/655350   ( 0.0%) 
+planes                 628/65536    ( 1.0%) 
+vertexes              7373/65536    (11.3%) 
+nodes                 4550/65536    ( 6.9%) 
+texinfos                46/32768    ( 0.1%) 
+texdata                  9/8192     ( 0.1%) 
+dispinfos             4144/16384    (25.3%) 
+faces                 6020/65536    ( 9.2%) 
+hdr faces                0/65536    ( 0.0%) 
+origfaces             4158/65536    ( 6.3%) 
+leaves                4552/65536    ( 6.9%) 
+leaffaces             1990/65536    ( 3.0%) 
+leafbrushes           3655/65536    ( 5.6%) 
+areas                    2/1024     ( 0.2%) 
+surfedges            24144/512000   ( 4.7%) 
+edges                12419/256000   ( 4.9%) 
+leafwaterdata            1/32768    ( 0.0%) 
+primitives               3/32768    ( 0.0%) 
+primverts                0/65536    ( 0.0%) 
+primindices             36/65536    ( 0.1%) 
+cubemapsamples           0/1024     ( 0.0%) 
+overlays                 0/8192     ( 0.0%) 
+vertnormalindices    24143/256000   ( 9.4%) 
+visdata             563857/16777216 ( 3.4%) 
+entdata              34462/393216   ( 8.8%) 
+LDR ambient table     4552/65536    ( 6.9%) 
+HDR ambient table     4552/65536    ( 6.9%) 
+LDR worldlights            2       
+HDR worldlights            0       
+LDR lightdata              18010280
+HDR lightdata              0       
+LDR leaf ambient           10544   
+HDR leaf ambient           4552    
+occluders                  0       
+occluder polygons          0       
+occluder vert ind          0       
+detail props               12      
+static props               155638  
+pakfile                    60426   
+physics                    6279    
+physics terrain            1244448 
+
+Level flags = 0
+
+Total triangle count: 12103
+Writing c:\github\gmod-maps\map2352_fixed_good_geometry.bsp
+4 minutes, 57 seconds elapsed
